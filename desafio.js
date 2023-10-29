@@ -1,5 +1,6 @@
 let nivel = ""
 let oDado = [ 1 , 2 , 3 , 4 , 5 , 6 ]
+// INICIO
 console.log("Seja bem vindo bravo herói, os dados mágicos serão rodados duas vezez e irá nos dizer qual será seu nível de herói. Boa Sorte!")
 // PRIMEIRO DADO
 console.log("Primeiro dado mágico será rodado...")
