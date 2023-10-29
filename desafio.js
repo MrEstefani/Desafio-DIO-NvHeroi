@@ -1,7 +1,8 @@
 let nivel = ""
+const nome = "Bravo Herói"
 let oDado = [ 1 , 2 , 3 , 4 , 5 , 6 ]
 // INICIO
-console.log("Seja bem vindo bravo herói, os dados mágicos serão rodados duas vezez e irá nos dizer qual será seu nível de herói. Boa Sorte!")
+console.log(`Seja bem vindo ${nome}, os dados mágicos serão rodados duas vezez e irá nos dizer qual será seu nível de herói. Boa Sorte!`)
 // PRIMEIRO DADO
 console.log("Primeiro dado mágico será rodado...")
 let nDado = Math.floor(Math.random() * oDado.length + 1)
@@ -31,4 +32,4 @@ if (xp <= 1000){
 }else{
    nivel = "Radiante"
 }
-console.log("Nível do Herói: " + nivel)
+console.log(`O ${nome} está no nível ${nivel}`)
